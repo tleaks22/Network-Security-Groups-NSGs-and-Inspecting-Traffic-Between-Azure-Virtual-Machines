@@ -15,7 +15,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Connect to the VM "DC-1" as an admin and then log in as a regular user.
+- Connect to the 2 pre-made VMs "DC-1" and Client1-1 as an admin and then log in as a regular user.
 - Create 4 folders with varying access types and permissions. "read, read/write, etc."
 - Attempt to view files as the user to see which provides no access.
 - Go back to the folder and assign a security group/permissions to it. Then, set a fake user as a member of the group to fully provide access to the user.
@@ -23,18 +23,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="628" height="140" alt="image" src="https://github.com/user-attachments/assets/aa2a5d55-4d7f-416b-af70-f57fe7f31080" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Here, I separately signed into 1 VM as an admin and the second as a user.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="512" height="257" alt="image" src="https://github.com/user-attachments/assets/cfba75bb-12bb-428f-8225-520f51d5e01f" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Here, I set up a file with only "read access" to make sure the file couldn't be written on. It could only be read and 
 </p>
 <br />
 
